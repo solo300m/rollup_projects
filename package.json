@@ -1,0 +1,19 @@
+{
+  "name": "hw_rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "homework"
+  ],
+  "author": "Sergey Lyulchenko",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3"
+  }
+}
