@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rollup -c -w",
+    "prod": "rollup -c"
   },
   "keywords": [
     "rollup",
@@ -14,6 +15,10 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.3"
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-styles": "^4.0.0"
   }
 }
